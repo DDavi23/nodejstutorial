@@ -5,7 +5,8 @@ var Person = function(name){
 	this.name = name;
 };
 
-util.inherits(Person, events.EventEmitter);
+util.inherits(Person, events.EventEmitter);//using the utility module
+//to inherit
 
 var danyel = new Person("danyel");
 var joey = new Person("joey");
