@@ -19,5 +19,6 @@ people.forEach(function(person) {
 	//as we go through an array
 });
 
-danyel.emit("speak", "what up");
+danyel.emit("speak", "what up");//returns danyel said: what up
+
 
