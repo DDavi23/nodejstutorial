@@ -1,8 +1,13 @@
-var counter = require("./count");//this is the module
-//being called
+var stuff = require("./stuff"); //uses stuff.js module
 
-console.log(counter(["Danyel", "Tara", "Angie", "James"])); //this is a function
+console.log(stuff.counter(["Danyel", "Tara", "Angie", "James"])); //this is a function
 
-//This module is requiring the info from count.js 
-//and is returning it
-//returns the string There are 4 elements in this array
+//This returns There are 4 elements in this array
+
+console.log(stuff.adder(3,4));
+
+//This returns The sum of the 2 numbers is 7
+
+console.log(stuff.adder(stuff.pi, 3));
+
+//This returns The sum of the 2 numbers is 6.14
