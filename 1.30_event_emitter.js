@@ -9,4 +9,4 @@ myEmitter.on("someEvent", function(mssg){//myEmitter is the object
 
 myEmitter.emit("someEvent", "the event was emitted");//the string being 
 //passed through the function
-
+//returns the event was emitted
